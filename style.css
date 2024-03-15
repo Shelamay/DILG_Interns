@@ -1,14 +1,42 @@
+.logo{
+    position: relative;
+    padding-left: 2rem;
+    display: flex;
+
+    
+    
+}
+.logo a{
+    text-decoration: none;
+    display: flex;
+    gap: 20px;
+}
+.logo h1{
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+}
+.logo h1:first-child {
+    color: #fb8500;
+    font-size: 2rem;
+}
 .navbar {
-    background-color: blue; /* Replace 'navbar-background.jpg' with your image path */
+    background-color: rgb(11, 11, 62); /* Replace 'navbar-background.jpg' with your image path */
     background-size: cover; /* Adjust the background size to cover the entire navbar */
-    height: 50px; /* Example height of the navbar */
+    height: 80px; /* Example height of the navbar */
     /* Add other styling properties as needed */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 /* Other CSS styles for your navbar items, etc. */
 .navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+}
+.container{
+    display: flex;
+    align-items: center;
 }
 .navbar li {
     float: right;
@@ -24,7 +52,5 @@
     position: relative;     
 }
 .background{
-    background: url(image/section_1.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
 }
