@@ -1,0 +1,30 @@
+.navbar {
+    background-color: blue; /* Replace 'navbar-background.jpg' with your image path */
+    background-size: cover; /* Adjust the background size to cover the entire navbar */
+    height: 50px; /* Example height of the navbar */
+    /* Add other styling properties as needed */
+}
+/* Other CSS styles for your navbar items, etc. */
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.navbar li {
+    float: right;
+    margin-right: 10px;
+}
+.navbar li a {
+    display: block;
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+.front {
+    position: relative;     
+}
+.background{
+    background: url(image/section_1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
